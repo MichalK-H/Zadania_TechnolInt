@@ -1,0 +1,3 @@
+1. Pamięć podręczna DNS - to baza danych służąca do przechowywania danych dotyczących odwiedzonych stron internetowych (np. nazwa domeny).
+
+2. Przyczyna korzystania z pamięci DNS - przyspieszenie wyszukiwania. Po odwiedzeniu nowej witryny zapisywane są jej dane co pozwala na skorzystania z lokalnie przechowywanych informacji zamiast szukania od nowa w sieci.
