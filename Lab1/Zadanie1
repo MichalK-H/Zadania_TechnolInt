@@ -1,0 +1,15 @@
+Dane wejściowe:
+1 GB
+10 Mb/s
+Narzut Ethernet = 5% (przykładowo)
+Retransmisje - 1%
+
+Sposób obliczenia - określamy ile bajt ma bitów, ile gigabajt ma megabajtów, 
+dzielimy uzyskaną wartość przez 10Mb/s żeby uzyskać informację o ptrzebnym czasie.
+Wynik korygujemy o narzut i transmisje.
+
+1 bajt = 8 bitów
+1 GB = 1000 MB = 1000 * 8 Mb
+1 GB = 8000 Mb
+
+(8000/10)*(1,01*1,05) = 848,4 sek = 14,14 min
