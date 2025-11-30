@@ -1,0 +1,11 @@
+Pliki Rejestr (xml, dtd, xsd) znajdują się w folderze.
+
+Sprawozdanie:
+
+1)Po pierwszej walidacji pojawił się komunikat - "The End-tag For Element Type "xs:sequenc" Must End With A '>' Delimiter."
+-poprawiono <xs:sequenc> na <xs:sequence> (literówka)
+
+2)Po drugiej walidacji pojawił się komunikat - "XML Document Structures Must Start And End Within The Same Entity."
+-poprawiono w ostatniej linijce <xs:schema> na </xs:schema>
+
+3)Komunikat - "The XML document is valid."
