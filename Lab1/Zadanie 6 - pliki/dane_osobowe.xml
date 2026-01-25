@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<osoby>
-	<osoba>
-		<Imię>Piotr</Imię>
-		<Nazwisko>Nowak</Nazwisko>
-		<Płeć>Mężczyzna</Płeć>
-		<Wiek>25</Wiek>
-	</osoba>
-</osoby>
