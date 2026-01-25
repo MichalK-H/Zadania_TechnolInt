@@ -1,0 +1,164 @@
+1. Tracert (wiersz poleceń)
+-www.onet.pl
+Tracing route to www.onet.pl [18.66.26.90]
+over a maximum of 30 hops:
+
+  1    13 ms    18 ms     6 ms  192.168.52.13
+  2     *        *        *     Request timed out.
+  3    53 ms    18 ms    24 ms  172.26.9.94
+  4     *        *        *     Request timed out.
+  5    35 ms    58 ms    21 ms  157.25.255.228
+  6    62 ms    69 ms    37 ms  80.156.161.20
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11    53 ms    24 ms    28 ms  150.222.80.120
+ 12    65 ms    33 ms    49 ms  server-18-66-26-90.vie50.r.cloudfront.net [18.66.26.90]
+
+-www.nasa.com
+Tracing route to www.nasa.com [185.53.178.99]
+over a maximum of 30 hops:
+
+  1     6 ms     2 ms     2 ms  192.168.52.13
+  2     *        *        *     Request timed out.
+  3    52 ms    22 ms    21 ms  172.26.9.94
+  4     *        *        *     Request timed out.
+  5    27 ms    13 ms    15 ms  157.25.255.228
+  6    41 ms    30 ms    28 ms  80.156.161.20
+  7    89 ms    48 ms    29 ms  80.150.168.249
+  8    88 ms    35 ms    65 ms  be9456.ccr22.muc03.atlas.cogentco.com [154.54.63.142]
+  9   139 ms    39 ms    61 ms  be5775.agr61.muc03.atlas.cogentco.com [130.117.1.130]
+ 10    57 ms    49 ms    29 ms  be3660.nr01.b015933-2.muc03.atlas.cogentco.com [154.25.17.210]
+ 11    40 ms    38 ms    32 ms  149.6.156.203
+ 12    64 ms    40 ms    47 ms  192.168.30.10
+ 13    99 ms    35 ms    65 ms  185.53.176.236
+ 14    76 ms    36 ms    46 ms  185.53.178.99
+
+-www.goggle.com
+Unable to resolve target system name www.goggle.com
+
+2. Narzędzie online tracerout (https://globalping.io/network-tools/traceroute-from-world)
+-www.onet.pl
+I USA - Los Angeles, US, NA
+traceroute to onet.pl (18.238.96.70), 20 hops max, 60 byte packets
+ 1  _gateway (104.168.74.1)  1.450 ms  1.433 ms
+ 2  10.9.1.145 (10.9.1.145)  0.663 ms  0.681 ms
+ 3  lax-b6-link.ip.twelve99.net (62.115.146.142)  0.591 ms  0.621 ms
+ 4  lax-bb2-link.ip.twelve99.net (62.115.112.246)  1.109 ms  1.190 ms
+ 5  phx-b5-link.ip.twelve99.net (62.115.125.73)  9.349 ms  9.373 ms
+ 6  phx-b8-link.ip.twelve99.net (62.115.127.27)  8.964 ms  8.977 ms
+ 7  amazon-ic-354283.ip.twelve99-cust.net (62.115.188.179)  26.880 ms  26.895 ms
+ 8  * *
+ 9  * *
+10  * *
+11  * *
+12  * *
+13  * *
+14  * *
+15  server-18-238-96-70.phx52.r.cloudfront.net (18.238.96.70)  9.457 ms *
+
+II Niemcy - Falkenstein, DE, EU
+traceroute to onet.pl (3.169.55.54), 20 hops max, 60 byte packets
+ 1  _gateway (172.31.1.1)  2.787 ms  3.244 ms
+ 2  24295.your-cloud.host (49.12.30.107)  1.000 ms  0.995 ms
+ 3  * *
+ 4  * *
+ 5  core-spine-rdev2.cloud2.fsn1.hetzner.com (213.239.239.5)  1.426 ms  1.423 ms
+ 6  core23.fsn1.hetzner.com (213.239.227.218)  1.752 ms  1.749 ms
+ 7  core0.fra.hetzner.com (213.239.224.66)  6.418 ms  6.414 ms
+ 8  ae-51.a02.frnkge13.de.bb.gin.ntt.net (83.231.214.72)  6.518 ms  6.515 ms
+ 9  ae-16.r27.frnkge13.de.bb.gin.ntt.net (129.250.2.8)  6.915 ms  7.124 ms
+10  ae-0.r23.parsfr04.fr.bb.gin.ntt.net (129.250.5.33)  195.258 ms  195.299 ms
+11  ae-13.r26.asbnva02.us.bb.gin.ntt.net (129.250.6.6)  93.536 ms  94.192 ms
+12  ae-10.r26.snjsca04.us.bb.gin.ntt.net (129.250.6.1)  153.274 ms  153.362 ms
+13  ae-0.r27.snjsca04.us.bb.gin.ntt.net (129.250.5.225)  152.922 ms  152.947 ms
+14  * *
+15  ae-0.a02.tokyjp08.jp.bb.gin.ntt.net (129.250.5.199)  247.619 ms  247.586 ms
+16  * *
+17  * *
+18  * *
+19  * *
+20  * *
+
+III - Hong Kong, HK, AS
+traceroute to onet.pl (13.226.69.48), 20 hops max, 60 byte packets
+ 1  _gateway (10.10.0.0)  5.265 ms  5.364 ms
+ 2  138.252.211.4 (138.252.211.4)  0.497 ms  0.490 ms
+ 3  * *
+ 4  * *
+ 5  * *
+ 6  * *
+ 7  * *
+ 8  * *
+ 9  server-13-226-69-48.hkg54.r.cloudfront.net (13.226.69.48)  0.836 ms  0.868 ms
+
+-www.nasa.com
+I - Ashburn, US, NA
+traceroute to nasa.com (104.247.81.99), 20 hops max, 60 byte packets
+ 1  _gateway (244.5.10.7)  97.562 ms  97.532 ms
+ 2  240.0.44.129 (240.0.44.129)  0.285 ms  0.348 ms
+ 3  242.0.179.211 (242.0.179.211)  1.280 ms  1.278 ms
+ 4  240.2.188.46 (240.2.188.46)  17.341 ms  17.878 ms
+ 5  242.6.235.197 (242.6.235.197)  17.620 ms  17.618 ms
+ 6  as16509.po11.spine01.ch3.unitedix.net (206.41.110.44)  17.549 ms  18.068 ms
+ 7  206.41.110.12 (206.41.110.12)  17.015 ms  17.013 ms
+ 8  104.247.84.98 (104.247.84.98)  23.731 ms  23.790 ms
+ 9  104.247.80.26 (104.247.80.26)  33.637 ms  40.621 ms
+10  104.247.81.99 (104.247.81.99)  54.209 ms  59.201 ms
+
+II - Amsterdam, NL, EU
+traceroute to nasa.com (185.53.178.99), 20 hops max, 60 byte packets
+ 1  _gateway (141.11.167.129)  0.913 ms  0.875 ms
+ 2  myloc.inter-ix.net (185.0.1.94)  0.528 ms  0.643 ms
+ 3  * *
+ 4  * *
+ 5  lag0-vl1011.core1-fra-ix.bb.wiit.network (89.163.136.209)  11.883 ms  11.878 ms
+ 6  lag0-vl1001.core1-nbg-ncd.bb.wiit.network (85.14.244.114)  14.476 ms  14.473 ms
+ 7  lag0-vl6.core2-nbg-ncd.bb.wiit.network (85.14.244.108)  14.320 ms  14.316 ms
+ 8  lag0-vl1006.core2-muc2.bb.wiit.network (85.14.244.162)  30.831 ms  30.825 ms
+ 9  85.14.244.131 (85.14.244.131)  30.818 ms  30.813 ms
+10  b1ti-vl8.muc01.net.internetx.com (217.64.170.213)  30.806 ms  30.801 ms
+11  192.168.30.10 (192.168.30.10)  30.156 ms  30.126 ms
+12  185.53.176.236 (185.53.176.236)  17.320 ms  17.334 ms
+13  185.53.178.99 (185.53.178.99)  20.431 ms  19.329 ms
+
+III - Hong Kong, HK, AS
+traceroute to nasa.com (185.53.178.99), 20 hops max, 60 byte packets
+ 1  _gateway (10.10.0.0)  0.457 ms  0.446 ms
+ 2  hu0-0-0-12.nr71.b065790-1.hkg01.atlas.cogentco.com (154.18.6.178)  0.980 ms  1.014 ms
+ 3  be5614.rcr51.hkg01.atlas.cogentco.com (154.24.27.49)  0.846 ms  0.942 ms
+ 4  be2414.ccr21.hkg02.atlas.cogentco.com (154.54.88.49)  1.804 ms  1.832 ms
+ 5  be2900.ccr32.mrs02.atlas.cogentco.com (154.54.6.25)  169.499 ms  169.613 ms
+ 6  port-channel5889.ccr92.mil02.atlas.cogentco.com (154.54.60.129)  164.202 ms  164.281 ms
+ 7  be5892.ccr22.muc03.atlas.cogentco.com (154.54.62.218)  173.553 ms  173.628 ms
+ 8  be5775.agr61.muc03.atlas.cogentco.com (130.117.1.130)  173.557 ms  173.551 ms
+ 9  be3660.nr01.b015933-2.muc03.atlas.cogentco.com (154.25.17.210)  173.933 ms  174.032 ms
+10  149.6.156.194 (149.6.156.194)  173.511 ms  173.557 ms
+11  192.168.30.18 (192.168.30.18)  174.038 ms  174.234 ms
+12  185.53.176.236 (185.53.176.236)  186.520 ms  186.498 ms
+13  185.53.178.99 (185.53.178.99)  174.132 ms  173.702 ms
+
+
+-www.goggle.com
+failed
+
+3. DNS checker (https://dnschecker.org/)
+onet.pl
+-Ameryka PN - Mountain View CA, United States - Google
+-Ameryka PD - Sao Paulo, Brazil - Vogel Solucoes em Telecom e Informatica S/A
+-Europa - Leipzig, Germany - Universitaet Leipzig
+-Azja - Seoul, South Korea - SK Telecom
+-Australia - Research, Australia - Cloudflare Inc
+-Afryka - Cullinan, South Africa - Liquid Telecommunications Ltd
+
+nasa.com
+-Ameryka PN - San Francisco CA, United States - OpenDNS
+-Ameryka PD - Sao Paulo, Brazil - Vogel Solucoes em Telecom e Informatica S/A
+-Europa - Amsterdam, Netherlands - OpenTLD BV
+-Azja - Singapore - Tefincom S.A.
+-Australia - Research, Australia - Cloudflare Inc
+-Afryka - Cullinan, South Africa - Liquid Telecommunications Ltd
+
+goggle - not resolved
+
