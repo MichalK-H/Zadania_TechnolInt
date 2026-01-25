@@ -1,0 +1,6 @@
+1. Parametry w metodzie GET znajdują się w adresie URL
+
+2. Przy HTTP dane nie są szyfrowane.
+
+3. W metodzie GET parametry znajdują się w adresie URL, a w metodzie POST w ciele żądania.
+
