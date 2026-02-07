@@ -1,0 +1,19 @@
+b) 
+-Obok etykiery Layer 7 - HTTP
+-Poniżej pól In Layer i Out Layers - "1. The HTTP client sends a HTTP request to the server."
+c) DST Port 80
+d) Dest. IP: 192.168.1.2
+e) Informacje po kliknięciu next laayer:
+1. The next-hop IP address is a unicast. The ARP process looks it up in the ARP table.
+2. The next-hop IP address is in the ARP table. The ARP process sets the frame's destination MAC address to the one found in the table.
+3. The device encapsulates the PDU into an Ethernet frame.
+f)
+-wspólne informajce sekcji IP i OSI Model są w warstiwe Layer 3 - Src. IP, Dest. IP
+-wspólne informacje sekcji TCP i OSI Model są w warstwie Layer 4 - Source Port:1043, Destination Port: 80, sequence number 1, ACK number 1
+-wartośc pola Host: www.osi.local. Informacja związana z Layer 7 - nagłówki protokołu HTTP wysłanego do serwera
+h)różnice:
+-layer 4 - odwórcone wartości Src Port i Dst Port (w in Src - 1043, Dst - 80 i n odwrót w out)
+-layer 3 - odwrócone Src IP i Dest IP (analogicznie jak wyżej)
+-layer 2 - również zamienione miejcami wartości
+i) pierwsza informacja: HTTP Data:Connection: close
+j) dwie, ponieważ brak było informacji zwrotej (tak jak na początku wypłynęła informacj - outbound PDU Details, tak tutaj wróciła - inbound PDU Details)
