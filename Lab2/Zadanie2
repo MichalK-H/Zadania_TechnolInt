@@ -1,0 +1,35 @@
+Część 1
+Krok1
+b)
+-adres IP [zanotowany]
+-adres MAC(fizyczny) [zanotowany]
+Krok2
+f) - uwaga - zapora windows defender blokowała ruch, po wyłączeniu jej na chwilę udało się uzyskać odpowiedź z drugiego komputera z sieci WLAN
+Krok3
+b) - tak, oba adresy pasują; komputer w ramach sieci lokalnej wysyła zapytanie do innych komputerów w tej sieci o to który posiada dany adres IP i w odpowiedzi otrzymuje adres MAC
+
+Część 2
+Krok1
+d)
+-yahoo
+C:\Users\HP>ping www.yahoo.com
+Pinging me-ycpi-cf-www.g06.yahoodns.net [2a00:1288:f03d:1fa::4000] with 32 bytes of data:
+
+-cisco
+C:\Users\HP>ping www.cisco.com
+Pinging e2867.dsca.akamaiedge.net [2a02:26f0:3780:980::b33] with 32 bytes of data:
+
+
+-google
+C:\Users\HP>ping www.google.com
+Pinging www.google.com [2a00:1450:4025:800::69] with 32 bytes of data:
+
+Krok2 + do przemyślenia
+a)
+yahoo 1st Lokalizacja: IP: 2a00:1288:f03d:1fa::4000 MAC: 3c:17:10:45:xx:xx
+cisco 2nd Lokalizacja: IP: 2a02:26f0:3780:980::b33 MAC: 3c:17:10:45:xx:xx
+google Lokalizacja: IP: 2a00:1450:4025:800::69 MAC: 3c:17:10:45:xx:xx
+b) istotne w tej informacji jest to że adresy MAC dla wszystkich stron są takie same - sygnał przechodzi przez router
+c) w sieci lokalnej otrzymuję adres MAC innego urząddzenia z sieci a nie routera
+
+
