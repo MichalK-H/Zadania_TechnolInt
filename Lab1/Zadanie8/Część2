@@ -1,0 +1,16 @@
+b) wyświetlane typy zdarzeń:
+-DNS
+-TCP
+d) (VARIABLE LENGTH):www.osi.local
+e) wyświetlane jest urrządzenie PC0
+-nie ma pola "address" ale  jest "LENGTH:4" oraz "IP:192.168.1.2"
+f)
+4. The TCP connection is successful.
+5. The device sets the connection state to ESTABLISHED.
+g) informacje:
+1. The device receives a TCP FIN+ACK segment on the connection to 192.168.1.2 on port 80.
+2. Received segment information: the sequence number 472, the ACK number 114, and the data length 20.
+3. The TCP segment has an unexpected sequence number. The device drops the segment.
+4. Expected segment information: the sequence number 1, the ACK number 114, and the data length N/A.
+Zdarzenie 4 - przeznaczenie segmentu to potwierdzenie otrzymania danych i oczekiwanie na kolejne dane.
+-numer portu serwera: 80 (gdy sourcem jest PC do Dst Port to 80)
